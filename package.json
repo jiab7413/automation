@@ -1,0 +1,26 @@
+{
+  "name": "auto-deploy-service",
+  "version": "0.0.1",
+  "description": "前端一键自动化部署",
+  "keywords": [
+    "deploy",
+    "automation"
+  ],
+  "main": "lib/serve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "",
+  "bin": {
+    "auto-deploy-service": "./bin/auto-deploy-service.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^5.0.2",
+    "colors": "^1.4.0",
+    "commander": "^6.1.0",
+    "inquirer": "^7.3.3",
+    "node-ssh": "^11.0.0"
+  }
+}
